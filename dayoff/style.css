@@ -1,0 +1,21 @@
+@import "css/reset.css";
+@import "css/index.css";
+@import "css/gamescreen.css";
+
+html,
+body {
+    font-family: 'Nanum Pen Script', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+    background: url('img/main.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
